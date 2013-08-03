@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="psd/model/|psd/parser/|psd/parser/header/|psd/parser/imagedata/|psd/parser/imageresource/|psd/parser/layer/|psd/parser/layer/additional/|psd/parser/object/|psd/util/|freeimage4java/" kind="src" path="src"/>
+	<classpathentry kind="src" path="pkgJunrar"/>
+	<classpathentry kind="src" path="lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/koro/projects/commons-compress-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/WebPViewer-0.2.jar"/>
+	<classpathentry kind="lib" path="lib/sanselan-0.97-incubator.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
