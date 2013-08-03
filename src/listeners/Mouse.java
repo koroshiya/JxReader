@@ -23,7 +23,7 @@ public class Mouse implements MouseListener, MouseMotionListener {
 	@Override
 	public void mouseClicked(MouseEvent arg0) {
 		jxReader.repaint();
-		if (arg0.getSource() instanceof JLabel){
+		if (arg0.getSource() == JxReader.pnlImage){
 			if (arg0.getButton() == 1){
 				jxReader.pageRouter(1);
 			}else if (arg0.getButton() == 3){

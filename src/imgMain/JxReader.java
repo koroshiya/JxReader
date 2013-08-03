@@ -52,7 +52,7 @@ public class JxReader extends TransferHandler {
   public static final double VERSION = 1.0;
   public JScrollPane pane = new JScrollPane();
   public static JPanel panel = new JPanel(new BorderLayout());
-  private static JLabel pnlImage = new JLabel();
+  public static final JLabel pnlImage = new JLabel();
   
   private static final String[] supportedExtensions = {".png", ".jpg", ".gif", "jpeg", ".psd", ".bmp", ".wbmp", ".webp"};
   
